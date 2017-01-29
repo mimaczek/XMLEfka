@@ -1,0 +1,2154 @@
+<?xml version="1.0" ?>
+<eExact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="eExact-Schema.xsd">
+ <GLEntries>
+ <GLEntry entry="62010716" status="E">
+  <Division code="001" />
+  <Description>us&#322;ugi pocztowe</Description>
+  <Date>2016-10-31</Date>
+  <DocumentDate>2016-10-31</DocumentDate>
+  <Journal code="201" type="I">
+   <Description>Zakupy krajowe</Description>
+   <GLAccount code="   201100" type="B" subtype="C" side="C">
+    <Description>Zobowi&#261;zania z tyt.towar&#243;w i us&#322;ug</Description>
+   </GLAccount>
+  </Journal>
+   <Costcenter code="001CC001">
+    <Description>Default cost center</Description>
+   </Costcenter>
+  <Amount>
+   <Currency code="PLN"/>
+   <Value>2159.41</Value>
+  </Amount>
+  <ForeignAmount>
+   <Currency code="PLN"/>
+   <Value>2159.41</Value>
+  </ForeignAmount>
+  <FinEntryLine number="1" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="NOWYSACZ">
+    <Description>Nowy S&#261;cz</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="GOSP-NIEKW." type="I" status="A">
+    <Description>Gospodarcza-niekwalifikowana</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2009-01-01</DateStart>
+    <DateEnd>2014-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>0.69</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>0.69</VATBaseAmount>
+    <VATBaseAmountFC>0.69</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="2" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="NOWYSACZ">
+    <Description>Nowy S&#261;cz</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="JANOSIK NKW" type="I" status="A">
+    <Description>Janosik nkw</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2016-01-01</DateStart>
+    <DateEnd>2017-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>4.81</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>4.81</VATBaseAmount>
+    <VATBaseAmountFC>4.81</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="3" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="PLOCK">
+    <Description>P&#322;ock</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="GOSP-NIEKW." type="I" status="A">
+    <Description>Gospodarcza-niekwalifikowana</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2009-01-01</DateStart>
+    <DateEnd>2014-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>7.46</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>7.46</VATBaseAmount>
+    <VATBaseAmountFC>7.46</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="4" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="PLOCK">
+    <Description>P&#322;ock</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="MI&#346; 2" type="I" status="A">
+    <Description>Projekt MI&#346; aneks przed&#322;u&#380;enie realizacji</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2012-10-01</DateStart>
+    <DateEnd>2014-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>141.55</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>141.55</VATBaseAmount>
+    <VATBaseAmountFC>141.55</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="5" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="POLCZYN">
+    <Description>Po&#322;czyn Zdr&#243;j</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="GOSP-NIEKW." type="I" status="A">
+    <Description>Gospodarcza-niekwalifikowana</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2009-01-01</DateStart>
+    <DateEnd>2014-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>6.6</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>6.6</VATBaseAmount>
+    <VATBaseAmountFC>6.6</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="6" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="POLCZYN">
+    <Description>Po&#322;czyn Zdr&#243;j</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="GOSP-NIEKW." type="I" status="A">
+    <Description>Gospodarcza-niekwalifikowana</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2009-01-01</DateStart>
+    <DateEnd>2014-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>4.4</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>4.4</VATBaseAmount>
+    <VATBaseAmountFC>4.4</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="7" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="RADOM">
+    <Description>Radom</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="GOSP-NIEKW." type="I" status="A">
+    <Description>Gospodarcza-niekwalifikowana</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2009-01-01</DateStart>
+    <DateEnd>2014-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>5.9</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>5.9</VATBaseAmount>
+    <VATBaseAmountFC>5.9</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="8" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="RADOM">
+    <Description>Radom</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="MI&#346; 2" type="I" status="A">
+    <Description>Projekt MI&#346; aneks przed&#322;u&#380;enie realizacji</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2012-10-01</DateStart>
+    <DateEnd>2014-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>112.01</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>112.01</VATBaseAmount>
+    <VATBaseAmountFC>112.01</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="9" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="SIEDLCE">
+    <Description>Siedlce</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="GOSP-NIEKW." type="I" status="A">
+    <Description>Gospodarcza-niekwalifikowana</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2009-01-01</DateStart>
+    <DateEnd>2014-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>6.24</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>6.24</VATBaseAmount>
+    <VATBaseAmountFC>6.24</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="10" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="SIEDLCE">
+    <Description>Siedlce</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="MI&#346; 2" type="I" status="A">
+    <Description>Projekt MI&#346; aneks przed&#322;u&#380;enie realizacji</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2012-10-01</DateStart>
+    <DateEnd>2014-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>118.63</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>118.63</VATBaseAmount>
+    <VATBaseAmountFC>118.63</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="11" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="1WARSZAW">
+    <Description>Warszawa</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="III/PODZ">
+    <Description>III/Do podzia&#322;u</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="STAT/GOSP" type="I" status="A">
+    <Description>Koszty og&#243;lne</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2009-02-11</DateStart>
+    <DateEnd>2015-01-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>614.34</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>614.34</VATBaseAmount>
+    <VATBaseAmountFC>614.34</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="12" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="1WARSZAW">
+    <Description>Warszawa</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="MI&#346; 2" type="I" status="A">
+    <Description>Projekt MI&#346; aneks przed&#322;u&#380;enie realizacji</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2012-10-01</DateStart>
+    <DateEnd>2014-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>483.95</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>483.95</VATBaseAmount>
+    <VATBaseAmountFC>483.95</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="13" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="1WARSZAW">
+    <Description>Warszawa</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="JANOSIK NKW" type="I" status="A">
+    <Description>Janosik nkw</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2016-01-01</DateStart>
+    <DateEnd>2017-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>170.26</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>170.26</VATBaseAmount>
+    <VATBaseAmountFC>170.26</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="14" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="1WARSZAW">
+    <Description>Warszawa</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="SAMI SWOI NK." type="I" status="A">
+    <Description>Sami Swoi Niekw.</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2010-03-01</DateStart>
+    <DateEnd>2013-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>169.94</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>169.94</VATBaseAmount>
+    <VATBaseAmountFC>169.94</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="15" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="1WARSZAW">
+    <Description>Warszawa</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="GOSP-NIEKW." type="I" status="A">
+    <Description>Gospodarcza-niekwalifikowana</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2009-01-01</DateStart>
+    <DateEnd>2014-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>89.09</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>89.09</VATBaseAmount>
+    <VATBaseAmountFC>89.09</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="16" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="ZAMBR&#211;W">
+    <Description>ZAMBR&#211;W</Description>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Warehouse code="1">
+    <Description>Default warehouse</Description>
+   </Warehouse>
+   <Project code="GOSP-NIEKW." type="I" status="A">
+    <Description>Gospodarcza-niekwalifikowana</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2009-01-01</DateStart>
+    <DateEnd>2014-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>35.49</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>35.49</VATBaseAmount>
+    <VATBaseAmountFC>35.49</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Unit unit="-" type="O" active="1">
+   <MultiDescriptions>
+    <MultiDescription number="0">-</MultiDescription>
+    <MultiDescription number="1">-</MultiDescription>
+    <MultiDescription number="2">-</MultiDescription>
+    <MultiDescription number="3">-</MultiDescription>
+    <MultiDescription number="4">-</MultiDescription>
+   </MultiDescriptions>
+   </Unit>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="17" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="ZAMBR&#211;W">
+    <Description>ZAMBR&#211;W</Description>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Project code="SAMI SWOI NK." type="I" status="A">
+    <Description>Sami Swoi Niekw.</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2010-03-01</DateStart>
+    <DateEnd>2013-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>141.98</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>141.98</VATBaseAmount>
+    <VATBaseAmountFC>141.98</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <FinEntryLine number="18" type="N" subtype="T">
+   <Date>2016-10-31</Date>
+   <FinYear number="2016"/>
+  <FinPeriod number="10"/>
+   <GLAccount code="   412002" type="W" subtype="K" side="D">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+    <Description>us&#322;ugi pocztowe</Description>
+   <Costcenter code="&#321;A&#323;CUT">
+    <Description>&#321;a&#324;cut</Description>
+   <GLAccount code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLAccount>
+   <GLOffset code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLOffset>
+   </Costcenter>
+   <Costunit code="I /GOSP">
+    <Description>I /GOSP</Description>
+   </Costunit>
+   <Creditor code="                1021" number="  1021" type="S">
+    <Name>Poczta Polska Sp&#243;&#322;ka Akcyjna</Name>
+   </Creditor>
+   <Resource number="0"/>
+   <Item code="X">
+    <Description>nieprzydzielone</Description>
+   <Assortment number="0" code="0000">
+    <Description>Miscellaneous</Description>
+   </Assortment>
+   <GLRevenue code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLRevenue>
+   <GLCosts code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLCosts>
+   <GLPurchase code="   999999" side="D" type="W" subtype="J">
+    <Description>Konto automatyczne - wynikowe</Description>
+   </GLPurchase>
+   </Item>
+   <Project code="GOSP-NIEKW." type="I" status="A">
+    <Description>Gospodarcza-niekwalifikowana</Description>
+    <SecurityLevel>10</SecurityLevel>
+    <DateStart>2009-01-01</DateStart>
+    <DateEnd>2014-12-31</DateEnd>
+    <Assortment number="-1"/>
+   </Project>
+   <Quantity>0</Quantity>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>46.07</Debit>
+    <Credit>0</Credit>
+       <VAT code="0" type="B" vattype="N" taxtype="V">
+        <Description>Nie podlega ewidencji VAT</Description>
+        <MultiDescriptions>
+             <MultiDescription number="1">VAT 0%</MultiDescription>
+             <MultiDescription number="2">VAT 0%</MultiDescription>
+             <MultiDescription number="3">VAT 0%</MultiDescription>
+             <MultiDescription number="4">VAT 0%</MultiDescription>
+        </MultiDescriptions>
+        <Percentage>0</Percentage>
+        <Charged>0</Charged>
+        <VATExemption>0</VATExemption>
+        <ExtraDutyPercentage>0</ExtraDutyPercentage>
+        <GLToPay code="   221200" side="C" type="B" subtype="C">
+         <Description>Podatek VAT nale&#380;ny</Description>
+        </GLToPay>
+        <GLToClaim code="   221100" side="D" type="B" subtype="C">
+         <Description>Podatek VAT naliczony</Description>
+        </GLToClaim>
+        <Creditor code="              000002" number="000002" type="S">
+         <Name>Tax creditor</Name>
+        </Creditor>
+        <PaymentPeriod>M</PaymentPeriod>
+        <VATListing>G</VATListing>
+       </VAT>
+   </Amount>
+   <VATTransaction code="0">
+    <VATAmount>0</VATAmount>
+    <VATBaseAmount>46.07</VATBaseAmount>
+    <VATBaseAmountFC>46.07</VATBaseAmountFC>
+   </VATTransaction>
+   <Payment>
+    <PaymentMethod code="B"/>
+    <PaymentCondition code="00">
+     <Description>Got&#243;wka</Description>
+    </PaymentCondition>
+    <Reference>FV20962/G0400/15/SFA</Reference>
+    <CSSDDate1>2016-10-31</CSSDDate1>
+    <CSSDDate2>2016-10-31</CSSDDate2>
+    <CSSDYesNo>K</CSSDYesNo>
+    <CSSDAmount1>0</CSSDAmount1>
+    <CSSDAmount2>0</CSSDAmount2>
+    <InvoiceNumber>20008589</InvoiceNumber>
+   </Payment>
+   <Delivery>
+    <Date>2017-01-23</Date>
+   </Delivery>
+   <FinReferences TransactionOrigin="N">
+    <UniquePostingNumber>0</UniquePostingNumber>
+    <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+    <DocumentDate>2016-10-31</DocumentDate>
+   </FinReferences>
+   <Discount>
+    <Percentage>0</Percentage>
+   </Discount>
+  </FinEntryLine>
+  <PaymentTerms>
+  <PaymentTerm type="T" termType="W" status="C" entry="62010716" ID="{E7CCCEFE-B787-42DE-B128-4BE0258A47E8}" paymentType="B" paymentMethod="T">
+   <Description>us&#322;ugi pocztowe</Description>
+   <GLAccount code="   412002" side="D" type="W" subtype="K">
+    <Description>Us&#322;ugi pocztowe i kurierskie</Description>
+   </GLAccount>
+   <GLOffset code="   201100"/>
+   <BankAccount code=""/>
+   <Creditor code="                1021" number="1021"/>
+   <Amount>
+    <Currency code="PLN"/>
+    <Debit>0.0</Debit>
+    <Credit>2159.41</Credit>
+    <VAT code="0"/>
+   </Amount>
+   <ForeignAmount>
+    <Currency code="PLN"/>
+    <Debit>0.0</Debit>
+    <Credit>2159.41</Credit>
+    <Rate>1</Rate>
+   </ForeignAmount>
+   <PaymentCondition code="00"/>
+   <DaysToPayment>0</DaysToPayment>
+   <Percentage>1</Percentage>
+   <Reference>FV20962/G0400/15/SFA</Reference>
+   <YourRef>FV20962/G0400/15/SFAKE/P/10/16</YourRef>
+   <InvoiceNumber>20008589</InvoiceNumber>
+   <InvoiceDate>2016-10-31</InvoiceDate>
+   <InvoiceDueDate>2016-10-31</InvoiceDueDate>
+   <ProcessingDate>2016-10-31</ProcessingDate>
+   <ReportingDate>2016-10-31</ReportingDate>
+   <Resource number="0"/>
+   <Journalization>
+    <Resource number="0"/>
+   </Journalization>
+   <IsBlocked>0</IsBlocked>
+  </PaymentTerm>
+  </PaymentTerms>
+ </GLEntry>
+</GLEntries>
+</eExact>
